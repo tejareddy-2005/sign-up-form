@@ -1,0 +1,215 @@
+body {
+
+    margin: 0;
+
+    background: #000;
+
+    color: #fff;
+
+    font-family: Arial, sans-serif;
+
+}
+
+.page {
+
+    min-height: 100vh;
+
+    position: relative;
+
+    background: linear-gradient(110deg, #273d63, #281934, #35151d)
+
+                top / 100% 220px no-repeat;
+
+}
+
+.back {
+
+    position: absolute;
+
+    top: 25px;
+
+    left: 60px;
+
+    color: #fff;
+
+    font-size: 35px;
+
+    text-decoration: none;
+
+}
+
+.login {
+
+    width: 485px;
+
+    max-width: 90%;
+
+    margin: auto;
+
+    padding-top: 78px;
+
+    text-align: center;
+
+}
+
+.login h2 {
+
+    margin-bottom: 40px;
+
+    font-size: 30px;
+
+}
+
+.login label {
+
+    display: block;
+
+    text-align: left;
+
+}
+
+.phone {
+
+    padding: 5px 0 15px;
+
+    border-bottom: 1px solid #aaa;
+
+    text-align: left;
+
+}
+
+.phone span {
+
+    margin-right: 10px;
+
+}
+
+.phone input {
+
+    width: 85%;
+
+    background: none;
+
+    border: 0;
+
+    outline: 0;
+
+    color: #fff;
+
+}
+
+.next {
+
+    width: 100%;
+
+    height: 58px;
+
+    margin-top: 38px;
+
+    border: 1px solid #444;
+
+    color: #fff;
+
+}
+
+.next:hover {
+
+    background: #222;
+
+    color: #fff;
+
+}
+
+.terms {
+
+    margin-top: 40px;
+
+    color: #888;
+
+    line-height: 25px;
+
+}
+
+.terms a,
+
+.google-login {
+
+    color: #aaa;
+
+    text-decoration: underline;
+
+}
+
+.account {
+
+    margin-top: 50px;
+
+    margin-bottom: 8px;
+
+    color: #888;
+
+}
+
+.google-login {
+
+    color: #fff;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+}
+
+.dots {
+
+    position: absolute;
+
+    bottom: 35px;
+
+    left: 50%;
+
+}
+
+.dots i,
+
+.dots b {
+
+    display: inline-block;
+
+    width: 5px;
+
+    height: 5px;
+
+    margin: 4px;
+
+    border-radius: 50%;
+
+    background: #777;
+
+}
+
+.dots b {
+
+    width: 28px;
+
+    background: #fff;
+
+}
+
+@media (max-width: 600px) {
+
+    .back {
+
+        left: 20px;
+
+    }
+
+    .login {
+
+        width: 90%;
+
+    }
+
+}
+
+
